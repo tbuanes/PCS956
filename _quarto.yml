@@ -5,7 +5,7 @@ format:
     html:
       theme: cerulean
       css: pcs956styles.css
-      number-sections: true
+      number-sections: false
 
 
 website:
@@ -24,11 +24,15 @@ website:
       - section: "Calibration"
         href: calibration.ipynb
         contents:
+          - calibrationMethods.ipynb
           - groupingLoss.ipynb
           - literatureCalibration.ipynb
       - section: "Uncertainty of the prediction"
         href: uncertainty.ipynb
         contents: 
+          - classifyUncertainty.ipynb
           - uqmethods.ipynb
           - literatureUncertainty.ipynb
+      - text: "Summary"
+        href: summary.ipynb
       

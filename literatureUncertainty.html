@@ -235,9 +235,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="https://doi.org/10.1016/j.inffus.2021.05.008">A review of uncertainty quantification in deep learning: Techniques, applications and challenges</a><br>
+<p><a href="https://doi.org/10.1088/2632-2153/ae45ed">Calibrated and uncertain? Evaluating uncertainty estimates in binary classification models</a><br>
+A Grefsrud, T Buanes and Nello Blaser<br>
+Machine Learning: Science and Technology, 7 (2026)</p>
+<p><a href="https://doi.org/10.1007978-3-031-70359-1_10">On the Calibration of Epistemic Uncertainty: Principles, Paradoxes and Conflictual Loss</a><br>
+M Fellaji et al.&nbsp;<br>
+Machine Learning and Knowledge Discovery in Databases. Research Track (2024)</p>
+<p><a href="https://arxiv.org/abs/2407.12211">A review of uncertainty quantification in deep learning: Techniques, applications and challenges</a><br>
 M Abdar et al.&nbsp;<br>
 Information Fusion 76 (2021)</p>
+<p><a href="https://arxiv.org/abs/1806.01768">Evidential Deep Learning to Quantify Classification Uncertainty</a><br>
+M Sensoy, L Kaplan and M Kandmir<br>
+Advances in Neural Information Processing Systems (2018)</p>
 <p><a href="https://iopscience.iop.org/article/10.1088/2632-2153/aba6f3">Deeply uncertain: comparing methods of uncertainty quantification in deep learning algorithms</a><br>
 J Caldeira and B Nord<br>
 Mach. Learn.: Sci. Technol. 2 015002</p>
@@ -250,6 +259,9 @@ Advances in Neural Information Processing Systems 30 (2017)</p>
 <p><a href="https://arxiv.org/abs/2209.03148">Improving Out-of-Distribution Detection via Epistemic Uncertainty Adversarial Training</a><br>
 D Everett et al.&nbsp;<br>
 arXiv:2209.03148 (2022)</p>
+<p><a href="https://arxiv.org/abs/1703.04977">What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?</a><br>
+A Kendall and Y Gal<br>
+Advances in Neural Information Processing Systems 30 (NeurIPS 2017)</p>
 <p><a href="https://www.cs.ox.ac.uk/people/yarin.gal/website/thesis/thesis.pdf">Uncertainty in Deep Learning</a><br>
 Y Gal<br>
 PhD thesis, University of Cambridge (2016)</p>
@@ -333,7 +345,7 @@ MSc thesis, University of Bergen (2018)</p>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/tbuanes\.github\.io\/PCS956\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
